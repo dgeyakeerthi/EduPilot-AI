@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+httpx
+pytest
+python-multipart
+numpy>=1.26
+faiss-cpu>=1.8.0
+# Persistent local semantic retrieval (FAISS acceleration; Python cosine fallback remains available)
+# Document extraction (local processing)
+PyMuPDF>=1.24
+Pillow>=10.0
+pytesseract>=0.3.10
+# Optional advanced OCR fallback: install separately when required
+# paddleocr>=2.7

@@ -1,0 +1,4 @@
+{"example-demo": {"enabled": false, "hosts": ["example.invalid"], "start_url": "https://example.invalid/apply",
+  "field_map": {"full_name": "#name", "course_name": "#course"}, "submit_selector": "#submit",
+  "confirmation_selector": ".confirmation", "confirmation_pattern": "Reference\\s*No[:\\s]+([A-Z0-9-]+)",
+  "stop_selectors": {"declaration": "input#declaration:not(:checked)", "payment": "#payment-form"}}}
